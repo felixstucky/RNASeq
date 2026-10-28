@@ -1,0 +1,9 @@
+name: kraken
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - kraken2
+  - bracken
+  - seqtk
+  - python=3.11

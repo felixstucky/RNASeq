@@ -1,0 +1,9 @@
+name: rrna
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bowtie2
+  - seqtk
+  - gffread
+  - python=3.11

@@ -1,0 +1,15 @@
+gtf: "GTF.gtf"
+genome: "Primary_assembly.fa"
+genome_version: "e.g.GRCh38.ENSEMBLE_86"
+read_length: 150
+
+work_dir: "/work"
+genome_index_dir: "/work/Genome_indices"
+
+two_pass: true
+sequencing_strand: "unstranded" # unstranded, forward, reverse
+salmon_kmer: 31
+min_mapping_rate: 15
+metadata_file: "work/metadata.csv" # Sample_Name, Read (R1/R2), Absolute_Path
+sample: ['1', '2', '3']
+

@@ -1,0 +1,6 @@
+name: bbduk
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bbmap=39.01
